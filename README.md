@@ -52,17 +52,18 @@ $ docker run --name postgresql -e POSTGRESQL_USERNAME=postgres -e POSTGRESQL_PAS
 Install the packages run migrations and start API
 
 ```sh
-$ yarn install
-$ yarn sequelize db:migrate
-$ yarn dev
+$ yarn
+$ yarn typeorm migration:run
+$ yarn test
+$ yarn build
+
 ```
 Dont forgot to configure the ``.env`` environment you can found the example of the variables [Here](api/.env)
 
 
-***To run Frontend***
+***To run Documentation***
 ```sh
-$ yarn install
-$ yarn start
+$ https://documenter.getpostman.com/view/5647823/UVXqEYaL#8a71d58c-6873-450d-875b-9d8460e5a6e8
 ```
 
 ### :memo: Licença
