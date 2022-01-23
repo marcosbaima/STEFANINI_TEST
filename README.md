@@ -60,17 +60,10 @@ $ yarn build
 ```
 Dont forgot to configure the ``.env`` environment you can found the example of the variables [Here](api/.env)
 
+### :rocket: To run Documentation
 
-***To run Documentation***
+- [LINK](https://documenter.getpostman.com/view/5647823/UVXqEYaL#8a71d58c-6873-450d-875b-9d8460e5a6e8)
 
-### :rocket: Tecnologias usadas
-Este projeto está sendo desenvolvido com as seguintes tecnologias:
-- [Node.js](https://nodejs.org/en/)
-
-```sh
-- [Node.js](https://nodejs.org/en/)
--[Documentation](https://documenter.getpostman.com/view/5647823/UVXqEYaL#8a71d58c-6873-450d-875b-9d8460e5a6e8)
-```
 
 ### :memo: Licença
 
