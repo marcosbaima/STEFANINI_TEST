@@ -20,6 +20,8 @@ Este projeto está sendo desenvolvido com as seguintes tecnologias:
 - [Babel](https://en.wikipedia.org/wiki/Babel_(transcompiler))
 - [JWT](https://jwt.io/)
 - [AWS - ECS](https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud)
+- [AWS - RDS](https://en.wikipedia.org/wiki/Amazon_Relational_Database_Service)
+- [AWS - LoadBalance](https://docs.aws.amazon.com/pt_br/autoscaling/ec2/userguide/autoscaling-load-balancer.html)
 
 
 ### :muscle: O Projeto 
@@ -44,19 +46,15 @@ O objetivo deste projeto, é mostrar detalhes e estruta do CODIGO para critério
 ### 🔥 Como rodar esse projeto (How to run this project)
 ***To run API***
 
-Create postgre docker container
-```sh
-docker run --name postgresql -e POSTGRESQL_USERNAME=postgres -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=postgres -p 5432:5432 bitnami/postgresql:latest
-
-```
-Install the packages run migrations and start API
+Install the packages and start API
 
 ```sh
 $ yarn
-$ yarn typeorm migration:run
+$ docker-compose
+
+***start test (JEST)***
+
 $ yarn test
-$ yarn build
-$ yarn start
 
 
 ```
