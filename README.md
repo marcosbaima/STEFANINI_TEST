@@ -19,6 +19,7 @@ Este projeto está sendo desenvolvido com as seguintes tecnologias:
 - [Express](https://expressjs.com/pt-br/)
 - [Babel](https://en.wikipedia.org/wiki/Babel_(transcompiler))
 - [JWT](https://jwt.io/)
+- [AWS - ECS](https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud)
 
 
 ### :muscle: O Projeto 
@@ -60,7 +61,7 @@ $ yarn build
 ```
 Dont forgot to configure the ``.env`` environment you can found the example of the variables [Here](api/.env)
 
-### :rocket: To run Documentation
+### 🗒️: Documentation
 
 - [LINK](https://documenter.getpostman.com/view/5647823/UVXqEYaL#8a71d58c-6873-450d-875b-9d8460e5a6e8)
 
