@@ -36,7 +36,6 @@ A ideia principal é criar uma API onde possamos gerir um cadastro de funcionár
 	- Altera Funcionário
 	- Excluir Funcionário
 	- Consultar Funcionário
--
 
 ### 🎯 Objetivo
 O objetivo deste projeto, é mostrar detalhes e estruta do CODIGO para critérios de AVALIAÇÃO.
