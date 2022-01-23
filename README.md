@@ -46,7 +46,7 @@ O objetivo deste projeto, é mostrar detalhes e estruta do CODIGO para critério
 
 Create postgre docker container
 ```sh
-$ docker run --name postgresql -e POSTGRESQL_USERNAME=postgres -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=postgres -p 5432:5432 bitnami/postgresql:latest
+docker run --name postgresql -e POSTGRESQL_USERNAME=postgres -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=postgres -p 5432:5432 bitnami/postgresql:latest
 
 ```
 Install the packages run migrations and start API
