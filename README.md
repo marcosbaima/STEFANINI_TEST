@@ -56,6 +56,8 @@ $ yarn
 $ yarn typeorm migration:run
 $ yarn test
 $ yarn build
+$ yarn start
+
 
 ```
 Dont forgot to configure the ``.env`` environment you can found the example of the variables [Here](api/.env)
