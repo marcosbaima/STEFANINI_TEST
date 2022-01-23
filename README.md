@@ -21,7 +21,7 @@ Este projeto está sendo desenvolvido com as seguintes tecnologias:
 - [JWT](https://jwt.io/)
 - [AWS - ECS](https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud)
 - [AWS - RDS](https://en.wikipedia.org/wiki/Amazon_Relational_Database_Service)
-- [AWS - LoadBalance](https://docs.aws.amazon.com/pt_br/autoscaling/ec2/userguide/autoscaling-load-balancer.html)
+- [AWS - LoadBalancer](https://docs.aws.amazon.com/pt_br/autoscaling/ec2/userguide/autoscaling-load-balancer.html)
 
 
 ### :muscle: O Projeto 
