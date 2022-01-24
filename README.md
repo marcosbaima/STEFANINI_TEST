@@ -50,6 +50,7 @@ Install the packages and start API
 
 ```sh
 $ yarn
+$ yarn build
 $ docker-compose
 
 ***start test (JEST)***
